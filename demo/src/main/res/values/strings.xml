@@ -1,40 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2017 Jan Heinrich Reimer
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
 <resources>
 
     <string name="app_name">material-drawer</string>
     <string name="drawer_open">Menu open</string>
     <string name="drawer_close">Menu closed</string>
-    <string name="hello_world">Custom drawer implementation for Material design apps.\n\nPlay with the drawer by checking the checkboxes below.\n\nMade by <b>Heinrich Reimer</b>\n\n<i>If you like this library you can show your enthusiasm by buying me a beer or two.</i></string>
-    <string name="hello_world2">Example of using <i>DrawerFrameLayout</i> for the drawer.\n\nCheck out the sample code on GitHub</string>
-    <string name="check_box_list">List</string>
-    <string name="check_box_fixed_list">Fixed list</string>
-    <string name="check_box_profile">Profile</string>
-    <string name="check_box_dividers">Dividers</string>
-    <string name="check_box_headers">Headers</string>
+    <string name="hello_world">Custom drawer implementation for Material design apps.\n\nMade by <b>Heinrich Reimer</b></string>
+    <string name="hello_world2">Example of using <i>DrawerFrameLayout</i> for the drawer.\nThis drawer has a custom max width of 250dp.\n\nCheck out the sample code on GitHub!</string>
+    <string name="hello_world3">Example of using <i>DrawerActivity</i> for the drawer.\nThis drawer shows theming and has a custom <i>Toolbar</i> set.\n\nVery simple ;)</string>
     <string name="action_github">GitHub</string>
     <string name="lorem_ipsum_short" translatable="false">Lorem ipsum</string>
     <string name="lorem_ipsum_medium" translatable="false">Lorem ipsum dolor sit amet</string>
     <string name="lorem_ipsum_long" translatable="false">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</string>
-    <string name="action_settings">Settings</string>
 
-    <string name="drawer_view">DrawerView</string>
     <string name="drawer_frame_layout">DrawerFrameLayout</string>
-
-    <string name="in_app_billing_public_license" translatable="false">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjhzh8zf3W1ezb2fIlki3Udlr5UikqEVQb4d705GmzWEm9DSB7i3ZQI6vMncxmABK5X5SpljCUsTQ/GFCqJ0QVLjohn6/a95qJ2WxSmdnlYZYmTEUZUh8U4kDLFSlUgFor7VKd0Lij2gWECCuE4ZpWTxwoInbVa2/WBq0f1cYuayXC1YLKGBrImUUrIJg5diB00uIPNSks/oouPA+rKb5ITHq9WV1Di7pRijRwMe3IsjzyW9RqsK6pRusYRO7C5O53F1o9ClVpH+HGDQwjJtqvTZN3XcH3eQHqoKSWLDPnkQthW+ShpiRDlMdSd6wU7F3t8QYxNwRb57EQrdJIChhYwIDAQAB</string>
-
-    <string name="donate">Donate</string>
-    <string name="donation1">$0.99</string>
-    <string name="donation2">$1.99</string>
-    <string name="donation3">$5.00</string>
-    <string name="donation4">$10.00</string>
-
-    <string name="donation_error_1">Do you really want to leave me thirsty? :(</string>
-    <string name="donation_error_2">Network connection is bad. Try again later.</string>
-    <string name="donation_error_3">In-app purchasing seems to be not available.</string>
-    <string name="donation_error_4">This donation is currently not available.</string>
-    <string name="donation_error_5">You are using an unauthorized or debug version of this demo. Why not downloading the official demo?</string>
-    <string name="donation_error_6">Unexpected donation error.</string>
-
-    <string name="thank_you">This beer tastes good, thank you ;)</string>
+    <string name="drawer_activity">DrawerActivity</string>
 
 </resources>
